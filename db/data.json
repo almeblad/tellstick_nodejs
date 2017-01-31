@@ -1,0 +1,21 @@
+[{
+  "name": "Temperatur inne",
+  "temp": 21.9,
+  "humidity": 42,
+  "time": 1480854552
+}, {
+  "name": "Förråd",
+  "temp": 6.3,
+  "humidity": 45,
+  "time": 1490840552
+}, {
+  "name": "Temperatur inne",
+  "temp": 20.3,
+  "humidity": 41,
+  "time": 1490854552
+}, {
+  "name": "Förråd",
+  "temp": 3.3,
+  "humidity": 42,
+  "time": 1491840552
+}, ]
