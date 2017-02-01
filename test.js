@@ -1,5 +1,5 @@
 var TelldusAPI = require('telldus-live');
-//var secrets = require('./secrets').MySecrets;
+var secrets = require('./Secrets.js');
 
 /*var publicKey   = secrets.publicKey?secrets.publicKey:'...'
   , privateKey  = secrets.privateKey?secrets.privateKey:'...'
@@ -8,11 +8,14 @@ var TelldusAPI = require('telldus-live');
   , cloud
   ;
 */
+console.log("--");
+console.log(secrets.privateKey);
+console.log("--");
 
-var publicKey = 'FEHUVEW84RAFR5SP22RABURUPHAFRUNU',
-  privateKey = 'ZUXEVEGA9USTAZEWRETHAQUBUR69U6EF',
-  token = '939683e99b77139f7e7b329de3f9ebba0584310af',
-  tokenSecret = '7a0278c26688d06203114bf0a5d7718a',
+var publicKey = secrets.publicKey,
+  privateKey = secrets.privateKey,
+  token = secrets.token,
+  tokenSecret = secrets.tokenSecret,
   cloud;
 
 cloud = new TelldusAPI.TelldusAPI({
