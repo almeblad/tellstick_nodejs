@@ -15,6 +15,7 @@ cloud = new TelldusAPI.TelldusAPI({
   // otherwise, good to go!
   console.log('user: ');
   console.log(user);
+  
 }).on('error', function(err) {
   console.log('background error: ' + err.message);
 });
